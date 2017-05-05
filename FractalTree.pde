@@ -17,7 +17,6 @@ public void draw()
 	line(320,480,320,450-itri1);   
 	drawBranches(320,450-itri1,itri1,3*Math.PI/2);
 	itri1 = (int)(Math.abs(100*sin(frameCount)));
-	System.out.println(itri1);
 } 
 public void drawBranches(int x,int y, double branchLength, double angle) 
 {   
