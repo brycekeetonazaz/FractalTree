@@ -14,8 +14,8 @@ public void draw()
 {   
 	background(0);   
 	stroke(150,255,130);   
-	line(320,480,320,380);   
-	drawBranches(320,380,itri1,3*Math.PI/2);
+	line(320,480,320,450-itri1);   
+	drawBranches(320,450-itri1,itri1,3*Math.PI/2);
 	itri1 = (int)(Math.abs(100*sin(frameCount)));
 	System.out.println(itri1);
 } 
